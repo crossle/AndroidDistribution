@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Distribution</string>
+    <string name="platform_version">Platform Versions</string>
+    <string name="jelly_bean">Jelly Bean</string>
+    <string name="ice_cream_sandwich">Ice Cream Sandwich</string>
+    <string name="honeycomb">Honeycomb</string>
+    <string name="gingerbread">Gingerbread</string>
+    <string name="froyo">Froyo</string>
+    <string name="eclair">"Eclair &amp; older"</string>
+    <string name="screen_size">Screen Sizes</string>
+    <string name="screen_density">Screen Densities</string>
+    <string name="small">Small</string>
+    <string name="normal">Normal</string>
+    <string name="large">Large</string>
+    <string name="xlarge">Xlarge</string>
+    <string name="ldpi">ldpi</string>
+    <string name="mdpi">mdpi</string>
+    <string name="hdpi">hdpi</string>
+    <string name="xhdpi">xhdpi</string>
+    <string name="opengl_version">Open GL Version</string>
+    <string name="gl1">1.1 only</string>
+    <string name="gl2">2.0 &amp; 1.1</string>
+    <string name="reset_button">Reset</string>
+    <string name="menu_about">Offcial website</string>
+    <string name="dashboard">http://developer.android.com/about/dashboards/index.html#Platform</string>
+
+</resources>

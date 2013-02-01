@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.crossle.android.distribution.charting.CustScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/me.crossle.android.distribution"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/platform_version"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <me.crossle.android.distribution.charting.PieChart
+            android:id="@+id/platform_pie"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            custom:autoCenterPointerInSlice="true"
+            custom:highlightStrength="1.12"
+            custom:labelColor="@android:color/black"
+            custom:labelHeight="20dp"
+            custom:labelPosition="right"
+            custom:labelWidth="110dp"
+            custom:labelY="80dp"
+            custom:pieRotation="0"
+            custom:pointerRadius="4dp"
+            custom:showText="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/screen_size"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <me.crossle.android.distribution.charting.PieChart
+            android:id="@+id/screen_size"
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            custom:autoCenterPointerInSlice="true"
+            custom:highlightStrength="1.12"
+            custom:labelColor="@android:color/black"
+            custom:labelHeight="20dp"
+            custom:labelPosition="right"
+            custom:labelWidth="110dp"
+            custom:labelY="80dp"
+            custom:pieRotation="0"
+            custom:pointerRadius="4dp"
+            custom:showText="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/screen_density"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <me.crossle.android.distribution.charting.PieChart
+            android:id="@+id/screen_density"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            custom:autoCenterPointerInSlice="true"
+            custom:highlightStrength="1.12"
+            custom:labelColor="@android:color/black"
+            custom:labelHeight="20dp"
+            custom:labelPosition="right"
+            custom:labelWidth="110dp"
+            custom:labelY="80dp"
+            custom:pieRotation="0"
+            custom:pointerRadius="4dp"
+            custom:showText="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/opengl_version"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <me.crossle.android.distribution.charting.PieChart
+            android:id="@+id/opengl_version"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            custom:autoCenterPointerInSlice="true"
+            custom:highlightStrength="1.12"
+            custom:labelColor="@android:color/black"
+            custom:labelHeight="20dp"
+            custom:labelPosition="right"
+            custom:labelWidth="110dp"
+            custom:labelY="80dp"
+            custom:pieRotation="0"
+            custom:pointerRadius="4dp"
+            custom:showText="true" />
+    </LinearLayout>
+
+</me.crossle.android.distribution.charting.CustScrollView>
