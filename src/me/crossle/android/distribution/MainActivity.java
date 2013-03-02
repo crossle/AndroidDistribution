@@ -22,12 +22,12 @@ public class MainActivity extends Activity {
 
 		setContentView(R.layout.main);
 		final PieChart platformPie = (PieChart) this.findViewById(R.id.platform_pie);
-		platformPie.addItem(getString(R.string.jelly_bean), 10.2f, res.getColor(R.color.seafoam));
-		platformPie.addItem(getString(R.string.ice_cream_sandwich), 29.1f, res.getColor(R.color.chartreuse));
-		platformPie.addItem(getString(R.string.honeycomb), 1.5f, res.getColor(R.color.emerald));
-		platformPie.addItem(getString(R.string.gingerbread), 47.6f, res.getColor(R.color.bluegrass));
-		platformPie.addItem(getString(R.string.froyo), 9.0f, res.getColor(R.color.turquoise));
-		platformPie.addItem(getString(R.string.eclair), 2.6f, res.getColor(R.color.slate));
+		platformPie.addItem(getString(R.string.jelly_bean), 13.6f, res.getColor(R.color.seafoam));
+		platformPie.addItem(getString(R.string.ice_cream_sandwich), 29.0f, res.getColor(R.color.chartreuse));
+		platformPie.addItem(getString(R.string.honeycomb), 1.3f, res.getColor(R.color.emerald));
+		platformPie.addItem(getString(R.string.gingerbread), 45.6f, res.getColor(R.color.bluegrass));
+		platformPie.addItem(getString(R.string.froyo), 8.1f, res.getColor(R.color.turquoise));
+		platformPie.addItem(getString(R.string.eclair), 2.4f, res.getColor(R.color.slate));
 
 		final PieChart screenSizePie = (PieChart) this.findViewById(R.id.screen_size);
 		screenSizePie.addItem(getString(R.string.small), 2.7f, res.getColor(R.color.seafoam));
